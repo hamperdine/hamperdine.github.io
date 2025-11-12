@@ -10,14 +10,14 @@ body {
     background-size: auto 100%;
     background-color: Black;
     color: WhiteSmoke;
-    font-size: 16pt;
+    font-size: 1.5rem; /* 16pt */
     font-style: normal;
     font-family: "Garamond";
 }
 
 p {
     text-align: justify;
-    margin-bottom: 24pt;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -58,36 +58,36 @@ a:active {
 }
 
 .title {
-    font-size: 36pt;
+    font-size: 3rem;
     font-style: normal;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: -10pt;
+    margin-bottom: -1rem;
 }
 
 .subtitle {
-    font-size: 18pt;
+    font-size: 1.5rem;
     font-style: italic;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 10pt;
+    margin-bottom: 1rem;
 }
 
 .content {
     background: rgba(35, 35, 35, 0.95);
     /* background-color: #333333; */
     background-blend-mode: darken;
-    padding: 20px 50px 20px 50px;
+    padding: 30px 60px 30px 60px;
     border-radius: 30px;
     margin: auto;
-    width: 600px;
+    width: 25em;
 }
 
 .iconlink {
     color: rgba(0, 0, 0, 0);
     text-decoration: none;
-    margin-right: 3pt;
-    margin-left: 3pt;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .iconlink:hover {
@@ -108,8 +108,8 @@ a:active {
     border-radius: 64px;
     height: 128px;
     width: 128px;
-    margin-top: 12pt;
-    margin-bottom: -20pt;
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -118,7 +118,7 @@ a:active {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 24pt;
+    margin-bottom: 2rem;
 }
 
 .svgicon {
