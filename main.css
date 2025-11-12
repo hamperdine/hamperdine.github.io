@@ -1,0 +1,128 @@
+/**********************************************************************/
+/* General                                                            */
+/**********************************************************************/
+
+body {
+    background-image: url("assets/background.jpg");
+    background-attachment: fixed;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: Black;
+    color: WhiteSmoke;
+    font-size: 16pt;
+    font-style: normal;
+    font-family: "Garamond";
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 24pt;
+}
+
+a {
+    color: Crimson;
+    text-decoration: none;
+}
+
+a:link {
+    color: Crimson;
+    text-decoration: none;
+}
+
+a:visited {
+    color: Crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    color: Red;
+    text-decoration: underline solid red 1px;
+}
+
+a:active {
+    color: Red;
+    text-decoration: underline double red 1px;
+}
+
+/**********************************************************************/
+/* Text organization                                                  */
+/**********************************************************************/
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.title {
+    font-size: 36pt;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: -10pt;
+}
+
+.subtitle {
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10pt;
+}
+
+.content {
+    background: rgba(35, 35, 35, 0.95);
+    /* background-color: #333333; */
+    background-blend-mode: darken;
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    margin: auto;
+    width: 600px;
+}
+
+.iconlink {
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    margin-right: 3pt;
+    margin-left: 3pt;
+}
+
+.iconlink:hover {
+    text-decoration: none;
+}
+
+.iconlink:active {
+    text-decoration: none;
+}
+
+/**********************************************************************/
+/* Images organization                                                */
+/**********************************************************************/
+
+.avatar {
+    background-image: url("assets/avatar.jpg");
+    background-size: contain;
+    border-radius: 64px;
+    height: 128px;
+    width: 128px;
+    margin-top: 12pt;
+    margin-bottom: -20pt;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.urlicons {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24pt;
+}
+
+.svgicon {
+    fill: WhiteSmoke;
+    height: 32px;
+    width: 32px;
+}
