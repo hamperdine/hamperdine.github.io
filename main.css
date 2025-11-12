@@ -10,7 +10,7 @@ body {
     background-size: auto 100%;
     background-color: Black;
     color: WhiteSmoke;
-    font-size: 1.5rem; /* 16pt */
+    font-size: 1.4rem;
     font-style: normal;
     font-family: "Garamond";
 }
@@ -75,12 +75,11 @@ a:active {
 
 .content {
     background: rgba(35, 35, 35, 0.95);
-    /* background-color: #333333; */
     background-blend-mode: darken;
     padding: 30px 60px 30px 60px;
     border-radius: 30px;
     margin: auto;
-    width: 25em;
+    width: 600px;
 }
 
 .iconlink {
@@ -125,4 +124,14 @@ a:active {
     fill: WhiteSmoke;
     height: 32px;
     width: 32px;
+}
+
+/**********************************************************************/
+/* Mobile organization                                                */
+/**********************************************************************/
+
+@media only screen and (max-width: 800px) {
+    .content {
+        width: calc(100% - 30vw);
+    }
 }
